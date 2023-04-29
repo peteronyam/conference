@@ -66,10 +66,10 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🚀 Live Demo <a name="https://https://peteronyam.github.io/conference/"></a>
+## 🚀<a name="" href="https://ponyam.netlify.app/">Live Demo</a>
 
-- [Live Demo Link](https://https://peteronyam.github.io/conference/)
-- - [Live Intro Video](https://www.loom.com/share/124738486bc4459fae419cf521be716e)
+- [Live Demo Link](https://ponyam.netlify.app/)
+- - [Live Intro Video](https://www.loom.com/share/bd01b331665943ec83e86c93195c7eea)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -146,7 +146,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Microverse for this privilege
+I would like to thank Microverse for this privilege and <a href="https://www.behance.net/adagio07">Cindy Shin</a> the <a href="https://www.behance.net/gallery/29845175/CC-Global-Summit-2015">author of the original design</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
