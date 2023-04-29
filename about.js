@@ -57,10 +57,10 @@ const features = [
 
 let displayedFeatures = features.slice(0, 2);
 
-function showFeatures() {
+window.showFeatures = function () {
   const projectFeatures = document.querySelector('.featured-speakers');
   projectFeatures.innerHTML = '<h2>Featured Speakers<br> <img src="./images/Home/feature-title-underline.svg" alt="feature underline"></h2>';
-  wholeFeatures = '';
+  let wholeFeatures = '';
   const screenSize = window.matchMedia('(min-width: 768px)');
   if (screenSize.matches) {
     displayedFeatures = features.slice();
@@ -108,4 +108,3 @@ window.showMore = function () {
     displayedFeatures = features.slice();
   }window.showFeatures();
 };
-// 

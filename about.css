@@ -11,7 +11,7 @@
 }
 
 .home-page {
-  /* background-image: url(./assets/About/hero-mobilebg.svg); */
+  /* background-image: url(./images/About/hero-mobilebg.svg); */
   background-size: cover;
   background-repeat: no-repeat;
   padding: 12px 0 55px 0;
@@ -325,7 +325,7 @@ div.abt-img {
   }
 
   .home-page {
-    background-image: url(./assets/About/desktop-bg.svg);
+    background-image: url(./images/About/desktop-bg.svg);
   }
 
   #desktop {
@@ -419,9 +419,13 @@ div.abt-img {
   .footer {
     display: flex;
     width: 100%;
-    padding: 42px;
+    margin-top: 0;
+    height: 148px;
+    padding-top: 44px;
+    padding-left: 12%;
     margin-bottom: 0;
     margin-left: 0;
+    margin-right: 0;
     gap: 3%;
     justify-content: center;
     background-color: #414246;
