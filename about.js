@@ -58,8 +58,8 @@ const features = [
 let displayedFeatures = features.slice(0, 2);
 
 function showFeatures() {
-  const projectFeatures = document.querySelector('.featured');
-  projectFeatures.innerHTML = '<h2>Featured Speakers<br> <img src="./assets/Home/feature-title-underline.svg" alt="feature underline"></h2>';
+  const projectFeatures = document.querySelector('.featured-speakers');
+  projectFeatures.innerHTML = '<h2>Featured Speakers<br> <img src="./images/Home/feature-title-underline.svg" alt="feature underline"></h2>';
   wholeFeatures = '';
   const screenSize = window.matchMedia('(min-width: 768px)');
   if (screenSize.matches) {
@@ -79,7 +79,7 @@ function showFeatures() {
       </ul>
   </div>
   `;
-  };
+  }
 
   projectFeatures.innerHTML += `<div class ="tworows">${wholeFeatures}</div>`;
   if (displayedFeatures.length === features.length) {
@@ -87,10 +87,9 @@ function showFeatures() {
   } else {
     projectFeatures.innerHTML += '<div class="loadMore" onclick="showMore()" style=""><button>More<img  src = "./images/Home/arrow_down_icon.svg"></button></div>';
   }
-  
+
   projectFeatures.appendChild();
 };
-
 
 window.popmenu = function () {
   const mobileMenu = document.querySelector('.show');
@@ -100,14 +99,13 @@ window.popmenu = function () {
     mobileMenu.id = 'hidden';
   }
 };
-window.showFeatures();
+// window.showFeatures();
 
-  window.showMore = function () {
-    if (displayedFeatures.length === features.length) {
-      displayedFeatures = features.slice(0, 2);
-    } else {
-      displayedFeatures = features.slice();
-    }
-  };
- window.showFeatures();
-  
+window.showMore = function () {
+  if (displayedFeatures.length === features.length) {
+    displayedFeatures = features.slice(0, 2);
+  } else {
+    displayedFeatures = features.slice();
+  }window.showFeatures();
+};
+// 

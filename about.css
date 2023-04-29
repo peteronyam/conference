@@ -1,18 +1,21 @@
 * {
   font-family: "Lato", sans-serif;
+  border: 0;
 }
 
 .page-one {
-  background-image: url(./images/Home/hero-\ mobile\ -background.svg);
+  /* background-image: url(./images/Home/hero-\ mobile\ -background.svg); */
   background-repeat: no-repeat;
   background-size: 100%;
+  border: 0;
 }
 
 .home-page {
-  background-image: url(./assets/About/hero-mobilebg.svg);
+  /* background-image: url(./assets/About/hero-mobilebg.svg); */
   background-size: cover;
   background-repeat: no-repeat;
   padding: 12px 0 55px 0;
+  border: 0;
 }
 
 .toolbar {
@@ -415,14 +418,17 @@ div.abt-img {
 
   .footer {
     display: flex;
-    margin: 40px 18px;
+    width: 100%;
     padding: 42px;
+    margin-bottom: 0;
+    margin-left: 0;
     gap: 3%;
     justify-content: center;
     background-color: #414246;
   }
 
   .footer-des {
+    width: 100%;
     display: flex;
     flex-direction: column;
     font-style: normal;
@@ -446,10 +452,10 @@ div.abt-img {
     font-size: 32px;
     line-height: 44px;
     padding: 40px;
-    gap: 12%;
+    gap: 10%;
     color: #868686;
     position: relative;
-    width: 40%;
+    width: 20%;
   }
 
   .show a {
