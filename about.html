@@ -16,11 +16,11 @@
   <link href="https://fonts.googleapis.com/css2?family=Domine&family=Inter:wght@400;700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:wght@100&display=swap" rel="stylesheet"/> 
     <title>About Conference</title>
 </head>
-<body>
-    <section class="forabt" >
+<body onload="showFeatures()">
+    <section class="page-one" >
         <nav id = 'navbar'>
         <div class="banner desktop"> 
-            <nav><a href="#"><img src="./images/About/facebook.svg" alt="facebook-logo"></a></nav>
+            <nav><a href="#"><img src="./images/About/facebook.svg" alt="facebook"></a></nav>
               <nav><a href="#"><img src="./images/About/twitter.svg" alt="twitter-logo"></a></nav>
               <nav><a href="#">English</a></nav>
               <nav><a href="#">My page</a></nav>
@@ -29,8 +29,8 @@
         <div class="toolbar">
             <a id="hamburger" class=" hamburger" href="#"><img onclick="popmenu()" alt="Hambruger Icon" src="./images/hamburger.svg"></a>
             <a class = "logo" href="./index.html"><img alt="Logo Icon" src="./images/logo.svg"></a>
-            <div class="toolbar2 showcontent" id="visible" >
-                <div><img onclick ="popmenu() "src="./images/Home/Icon - Cancel.png" alt=""></div>
+            <div class="toolbar2 show" id="visible" >
+                <div><img onclick="popmenu()" src="./images/Home/Icon_Cancel.png" alt="closebtn"></div>
                 <a class ="toollink" href="./about.html">About</a>
                 <a class ="toollink" href="#">Program</a>
                 <a class ="toollink" href="#">Join</a>
@@ -47,7 +47,7 @@
                 <img id="underline" src="./images/Home/feature-title-underline.svg" alt="">
             
             </div>
-            <div class="home-content">
+            <div class="home-section">
                 <p id="mobile">The Global Summit brings together the community of  
                     experts, academics, and activists who comprise the Creative Commons affiliate network in a different country every two years.
                     This year, we hope to expand our invitation list including organizations and individuals.</p>
@@ -57,10 +57,10 @@
                         So if you're active and engaged in the worlds of open content and knowledge - free software advocates, wikipedians, Open knowledge, galleries, libraries, museums, archives, governments and foundations, lawyers, and activists - we hope you'll consider joining us this year to build a stronger, more vibrant commons together</p>
             
                 </div>
-            <div class="at">
+            <div class="venue">
                 <p>Please contact us per Email for nay further questions about CC Global Summit 2015!</p>
             </div>
-            <div class="home-date">
+            <div class="event-date">
                 <p>ccsummit2015@cckorea.org</p> 
             </div>
             
@@ -70,7 +70,7 @@
             <div class="info-content">
                 <h2>Creative Commons 
                     Global Summit 2015 Logo</h2>
-                    <img src="./images/Home/feature-title-underline.svg"" alt="">
+                    <img src="./images/Home/feature-title-underline.svg" alt="">
                 <p id="mobile">The logo of CC Global Summit 2015 was decided through the logo competition from 8, June to 7, July.</p>
                 <p id="desktop">The logo of CC Global Summit 2015 was decided through the logo competition from 8, June to 7, July.
                     After online public voting and Selection Committee’s judging process, the logo from Naresh Agrawal won the prize.
@@ -96,7 +96,7 @@
             <div class="partner-content">
                 <h2>Partners</h2>
                 <img src="./images/Home/feature-title-underline.svg" alt="">
-                <div class="img-logo">
+                <div class="part-logo">
                     <ul>
                         <li><img src="./images/About/mozilla-logo.svg" alt="mozilla-logo"></li>
                         <li><img src="./images/About/googlekorea-logo.svg" alt="googlekorea-logo"></li>
@@ -121,6 +121,6 @@
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
       crossorigin="anonymous"></script>
-    <script type ="text/javascript" src="./about.js"></script>
+    <script type="text/javascript" src="./about.js"></script>
 </body>
 </html>

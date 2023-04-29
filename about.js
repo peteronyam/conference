@@ -57,7 +57,7 @@ const features = [
 
 let displayedFeatures = features.slice(0, 2);
 
-function showFeatures() {
+window.showFeatures = function () {
   const projectFeatures = document.querySelector('.featured-speakers');
   projectFeatures.innerHTML = '<h2>Featured Speakers<br> <img src="./images/Home/feature-title-underline.svg" alt="feature underline"></h2>';
   let wholeFeatures = '';
@@ -65,7 +65,7 @@ function showFeatures() {
   if (screenSize.matches) {
     displayedFeatures = features.slice();
   }
-  for (let i = 0; i < displayedFeatures.length; i++) {
+  for (let i = 0; i < displayedFeatures.length; i += 1) {
     wholeFeatures += `
       <div class="featured-speaker spike">          
       <ul class="spkr">
@@ -79,29 +79,31 @@ function showFeatures() {
       </ul>
   </div>
   `;
-  }projectFeatures.innerHTML += `<div class ="tworows">${wholeFeatures}</div>`;
+  }
+
+  window.popmenu = function () {
+    const mobileMenu = document.querySelector('.show');
+    if (mobileMenu.id === 'hidden') {
+      mobileMenu.id = 'visible';
+    } else {
+      mobileMenu.id = 'hidden';
+    }
+  };
+
+  window.showMore = function () {
+    if (displayedFeatures.length === features.length) {
+      displayedFeatures = features.slice(0, 2);
+    } else {
+      displayedFeatures = features.slice();
+    }
+    window.showFeatures();
+  };
+
+  projectFeatures.innerHTML += `<div class ="tworows">${wholeFeatures}</div>`;
   if (displayedFeatures.length === features.length) {
     projectFeatures.innerHTML += '<div class="loadMore" onclick="showMore()" style=""><button>Less<img  src = "./images/Home/arrow_up_icon.svg"></button></div>';
   } else {
     projectFeatures.innerHTML += '<div class="loadMore" onclick="showMore()" style=""><button>More<img  src = "./images/Home/arrow_down_icon.svg"></button></div>';
   }
   projectFeatures.appendChild();
-}
-
-function popmenu() {
-  const mobileMenu = document.querySelector('.show');
-  if (mobileMenu.id === 'hidden') {
-    mobileMenu.id = 'visibile';
-  } else {
-    mobileMenu.id = 'hidden';
-  }
-}
-
-function showMore() {
-  if (displayedFeatures.length === features.length) {
-    displayedFeatures = features.slice(0, 2);
-  } else {
-    displayedFeatures = features.slice();
-  }
-  showFeatures();
-}
+};

@@ -29,7 +29,7 @@ body > section > div > a:nth-child(1) > img {
   margin: 25% auto;
 }
 
-.home-content {
+.home-section {
   background: #fff;
   font-style: normal;
   font-weight: 400;
@@ -44,7 +44,7 @@ body > section > div > a:nth-child(1) > img {
   width: 100%;
 }
 
-.home-date {
+.event-date {
   font-style: normal;
   font-weight: 800;
   font-size: 12px;
@@ -55,7 +55,7 @@ body > section > div > a:nth-child(1) > img {
   color: #5f5f5f;
 }
 
-.at {
+.venue {
   font-style: normal;
   font-weight: 700;
   font-size: 12px;
@@ -108,11 +108,11 @@ body > section > div > a:nth-child(1) > img {
   margin: 0;
 }
 
-.img-logo {
+.part-logo {
   padding-bottom: 25px;
 }
 
-.img-logo ul {
+.part-logo ul {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
@@ -122,7 +122,7 @@ body > section > div > a:nth-child(1) > img {
   margin: 0 20px;
 }
 
-.img-logo li {
+.part-logo li {
   list-style: none;
   padding: 10px;
 }
@@ -176,7 +176,7 @@ body > section > div > a:nth-child(1) > img {
   display: none;
 }
 
-.home-content .desktop {
+.home-section .desktop {
   display: none;
 }
 
@@ -206,7 +206,7 @@ div.abt-img {
 }
 
 @media only screen and (max-width: 768px) {
-  .showcontent {
+  .show {
     background-color: #3b3e45;
     background-size: cover;
     color: #fff;
@@ -229,12 +229,12 @@ div.abt-img {
     gap: 5%;
   }
 
-  .showcontent a {
+  .show a {
     text-decoration: none;
     color: #fff;
   }
 
-  .showcontent > div {
+  .show > div {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -327,11 +327,11 @@ div.abt-img {
     display: none;
   }
 
-  .home-content .desktop {
+  .home-section .desktop {
     display: block;
   }
 
-  .home-content > p.desktop {
+  .home-section > p.desktop {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -342,7 +342,7 @@ div.abt-img {
     color: #000;
   }
 
-  .home-content {
+  .home-section {
     background: #fff;
     font-style: normal;
     font-weight: 400;
@@ -358,7 +358,7 @@ div.abt-img {
     margin: 0 21vw;
   }
 
-  .at {
+  .venue {
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -369,7 +369,7 @@ div.abt-img {
     letter-spacing: 0.03em;
   }
 
-  .home-date {
+  .event-date {
     font-style: normal;
     font-weight: 800;
     font-size: 17px;
@@ -432,7 +432,7 @@ div.abt-img {
     display: flex;
   }
 
-  .showcontent {
+  .show {
     display: flex;
     flex-direction: row;
     font-style: normal;
@@ -446,7 +446,7 @@ div.abt-img {
     width: 40%;
   }
 
-  .showcontent a {
+  .show a {
     text-decoration: none;
     color: #868686;
     font-size: 25px;
@@ -456,7 +456,7 @@ div.abt-img {
     color: #f07f7e;
   }
 
-  .showcontent > div {
+  .show > div {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
