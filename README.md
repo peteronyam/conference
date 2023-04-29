@@ -66,10 +66,10 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🚀<a name="" href="https://peteronyam.github.io/conference/">Live Demo</a>
+## 🚀<a name="" href="https://ponyam.netlify.app/">Live Demo</a>
 
-- [Live Demo Link](https://peteronyam.github.io/conference/)
-- - [Live Intro Video](http://www.loom.com/share/124738486bc4459fae419cf521be716e)
+- [Live Demo Link](https://ponyam.netlify.app/)
+- - [Live Intro Video](https://www.loom.com/share/bd01b331665943ec83e86c93195c7eea)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
