@@ -69,7 +69,7 @@
 ## 🚀 Live Demo <a name="https://https://peteronyam.github.io/conference/"></a>
 
 - [Live Demo Link](https://https://peteronyam.github.io/conference/)
-- - [Live Intro Video](https://www.loom.com/share/124738486bc4459fae419cf521be716e)
+- - [Live Intro Video](http://www.loom.com/share/124738486bc4459fae419cf521be716e)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
