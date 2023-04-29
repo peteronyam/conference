@@ -30,7 +30,7 @@
 
 # 📖 [portfolio Project] `<a name="about-project"></a>`
 
-**[portfolio Project]** is a simple HTML, CSS and Javascript webpage design from module 1 of Microverse.
+**[Fonference ]** is a simple HTML, CSS and Javascript webpage design from module 1 of Microverse.
 
 ## 🛠 Built With `<a name="built-with"></a>`
 

@@ -2,6 +2,12 @@
   font-family: "Lato", sans-serif;
 }
 
+.page-one {
+  background-image: url(./images/Home/hero-\ mobile\ -background.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
 .home-page {
   background-image: url(./assets/About/hero-mobilebg.svg);
   background-size: cover;

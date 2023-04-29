@@ -57,10 +57,10 @@ const features = [
 
 let displayedFeatures = features.slice(0, 2);
 
-window.showFeatures = function () {
-  const projectFeatures = document.querySelector('.featured-speakers');
-  projectFeatures.innerHTML = '<h2>Featured Speakers<br> <img src="./images/Home/feature-title-underline.svg" alt="feature underline"></h2>';
-  let wholeFeatures = '';
+function showFeatures() {
+  const projectFeatures = document.querySelector('.featured');
+  projectFeatures.innerHTML = '<h2>Featured Speakers<br> <img src="./assets/Home/feature-title-underline.svg" alt="feature underline"></h2>';
+  wholeFeatures = '';
   const screenSize = window.matchMedia('(min-width: 768px)');
   if (screenSize.matches) {
     displayedFeatures = features.slice();
@@ -79,24 +79,6 @@ window.showFeatures = function () {
       </ul>
   </div>
   `;
-  }
-
-  window.popmenu = function () {
-    const mobileMenu = document.querySelector('.show');
-    if (mobileMenu.id === 'hidden') {
-      mobileMenu.id = 'visible';
-    } else {
-      mobileMenu.id = 'hidden';
-    }
-  };
-
-  window.showMore = function () {
-    if (displayedFeatures.length === features.length) {
-      displayedFeatures = features.slice(0, 2);
-    } else {
-      displayedFeatures = features.slice();
-    }
-    window.showFeatures();
   };
 
   projectFeatures.innerHTML += `<div class ="tworows">${wholeFeatures}</div>`;
@@ -105,5 +87,27 @@ window.showFeatures = function () {
   } else {
     projectFeatures.innerHTML += '<div class="loadMore" onclick="showMore()" style=""><button>More<img  src = "./images/Home/arrow_down_icon.svg"></button></div>';
   }
+  
   projectFeatures.appendChild();
 };
+
+
+window.popmenu = function () {
+  const mobileMenu = document.querySelector('.show');
+  if (mobileMenu.id === 'hidden') {
+    mobileMenu.id = 'visible';
+  } else {
+    mobileMenu.id = 'hidden';
+  }
+};
+window.showFeatures();
+
+  window.showMore = function () {
+    if (displayedFeatures.length === features.length) {
+      displayedFeatures = features.slice(0, 2);
+    } else {
+      displayedFeatures = features.slice();
+    }
+  };
+ window.showFeatures();
+  
