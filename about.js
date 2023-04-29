@@ -91,6 +91,22 @@ window.showFeatures = function () {
   projectFeatures.appendChild();
 };
 
+const hamburger = document.querySelector('#hamburger');
+const toolbar = document.querySelector('.toolbar2');
+const closeBtn = document.querySelector('.close');
+toolbar.style.display = 'none';
+
+hamburger.addEventListener('click', () => {
+  if (toolbar.style.display === 'none') {
+    toolbar.style.display = 'flex';
+  } else {
+    toolbar.style.display = 'none';
+  }
+});
+closeBtn.addEventListener('click', () => {
+  toolbar.style.display = 'none';
+});
+
 window.popmenu = function () {
   const mobileMenu = document.querySelector('.show');
   if (mobileMenu.id === 'hidden') {
@@ -99,7 +115,6 @@ window.popmenu = function () {
     mobileMenu.id = 'hidden';
   }
 };
-// window.showFeatures();
 
 window.showMore = function () {
   if (displayedFeatures.length === features.length) {
