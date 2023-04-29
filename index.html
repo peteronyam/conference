@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+    crossorigin="anonymous"
+  />
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+  <link href="./styles.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Domine&family=Inter:wght@400;700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:wght@100&display=swap" rel="stylesheet"/> 
+    <title>Home Page</title>
+</head>
+<body onload="showFeatures()">
+ 
+   
+        <section class="page-one" >
+            <nav id = 'navbar'>
+            <div class="banner desktop"> 
+                <nav><a href="#"><img src="./images/About/facebook.svg" alt="facebook-logo"></a></nav>
+                  <nav><a href="#"><img src="./images/About/twitter.svg" alt="twitter-logo"></a></nav>
+                  <nav><a href="#">English</a></nav>
+                  <nav><a href="#">My page</a></nav>
+                  <nav><a href="#">Logout</a></nav>
+            </div>
+            <div class="toolbar">
+                <a id="hamburger" class=" hamburger" href="#">
+                    <img onclick="popmenu()" alt="Hamburger Icon" src="./images/hamburger.svg"></a>
+                <a class = "logo" href="#"><img alt="Logo Icon" src="./images/logo.svg"></a>
+                <div class="toolbar2 show" id="visible" >
+                    <div>
+                        <img class="close" onclick ="popmenu()" src="./images/Home/Icon_Cancel.png" alt="closebtn">
+                    </div>
+                    <a class ="toollink" href="./about.html">About</a>
+                    <a class ="toollink" href="#">Program</a>
+                    <a class ="toollink" href="#">Join</a>
+                    <a class ="toollink" href="#">Sponsor</a>
+                    <a class ="toollink" href="#">News</a>
+                    <a class ="toollink" href="#"><img src="./images/About/campaign-logo.svg" alt=""></a>
+                </div>
+            </div>
+        </nav>
+     
+        <section class="home-page">
+            <div class="hero-intro">
+                <img src="./images/Home/hero_intro.svg" alt="intro">
+            </div>
+            <div class="home-section">
+                <p>A joyful celebration believing in the value of openness and sharing, creating a positive change with people from over 80 countries is taking place in October, in Korea.</p>
+            </div>
+            <div class="event-date">
+                <p>2015.10.15(THU) ~ 16(FRI)</p>
+            </div>
+            <div class="venue">
+                <p>@ National Museum of Karea, Art Center Nabi and more</p>
+            </div>
+
+        </section>
+
+        <section class="main-program">
+            <h2>Main Program <br><img src="./images/Home/feature-title-underline.svg" alt="cross"></h2>
+            <div class="main-section">
+                                <ul class="main-page">
+                    <li class="m1"><img src="./images/Home/lecture-icon.svg" alt=""> 
+                        <h3>Lecture</h3>
+                        <p> Listen to the speakers from various countries about the messages of sharing and opening.</p>
+                    </li>
+                    <li class="m2"><img src="./images/Home/ccexhibition-icon.svg" alt="">
+                        <h3>CC Exhibition</h3>
+                        <p>Appreciate various creations applying CC license of artists, organized from Art Center Nabi</p>
+                    </li>
+                    <li class="m3"><img src="./images/Home/forum-icon.svg" alt="">
+                        <h3>Forum</h3>
+                        <p>Have the time to share your thoughts and opinions with experts for each topic.</p>
+                    </li>
+                    <li class="m4"><img src="./images/Home/workshop-icon.svg" alt="">
+                        <h3>Workshop</h3>
+                        <p>Try creating your own work using open source license rather than just watching at it.</p>
+                    </li>
+                    <li class="m5"><img src="./images/Home/ccignite-icon.svg" alt="">
+                        <h3>CC Ignite</h3>
+                        <p>get opportunities to network with CC affiliates around the world, also after the summit.</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="join-us">
+                <button>Join CC Global Summit 2015</button>
+            </div>
+
+            <div class="see-more">
+                <p>SEE THE WHOLE PROGRAM</p>
+            </div>
+        </section>
+
+        <section class="featured-speakers"></section>
+
+        <section class="partner" id ="partner-description">
+            <div class="partner-content">
+                <h2>Partners</h2>
+                <img src="./images/Home/feature-title-underline.svg" alt="">
+                <div class="part-logo">
+                    <ul>
+                        <li><img src="./images/About/mozilla-logo.svg" alt="partner-logo"></li>
+                        <li><img src="./images/About/googlekorea-logo.svg" alt="partner-logo"></li>
+                        <li><img src="./images/About/naver-logo.svg" alt="partner-logo"></li>
+                        <li><img src="./images/About/daumkakao-logo.svg" alt="partner-logo"></li>
+                        <li><img src="./images/About/airbnb-logo.svg" alt="partner-logo"></li>
+                    </ul>
+                </div>
+            </div>   
+        </section>
+        <footer class="footer">
+            <div class="f-logo" > <img src="./images/About/footer-logo.svg" alt="f-logo"></div>   
+            <div class="footer-description" ><p>2015 Creative Commons Korea. Some Rights Reserved.</p>
+            <p id ="footer-worker" class = "footer-description">달리 정하지 않은 웹사이트의 모든 내용은 크리에이티브 커먼즈 저작자표시 2.0 대한민국 라이선스에 따라 이용할 수 있습니다.
+                자세한 이용기능 내용과 허락조건은 http://creativecommons.org/licences/by/2.0/kr 를 보세요.</p></div>
+        </footer>
+    </section>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <script type ="text/javascript" src="./about.js"></script>
+</body>
+</html>
