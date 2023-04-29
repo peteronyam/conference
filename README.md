@@ -66,7 +66,7 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🚀 Live Demo <a name="https://http://peteronyam.github.io/conference/"></a>
+## 🚀<a name="" href="https://peteronyam.github.io/conference/">Live Demo</a>
 
 - [Live Demo Link](https://https://peteronyam.github.io/conference/)
 - - [Live Intro Video](http://www.loom.com/share/124738486bc4459fae419cf521be716e)
@@ -146,7 +146,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Microverse for this privilege
+I would like to thank Microverse for this privilege and <a href="https://www.behance.net/adagio07">Cindy Shin</a> the <a href="https://www.behance.net/gallery/29845175/CC-Global-Summit-2015">author of the original design</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
