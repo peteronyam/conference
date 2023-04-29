@@ -1,8 +1,8 @@
-`<a name="readme-top"></a>`
+<a name="readme-top"></a>
 
 <div align="center">
 
-<h3><b>Confre README</b></h3>
+<h3><b>Conference website README</b></h3>
 
 </div>
 
@@ -89,7 +89,7 @@ Git (optional)**
 
 Clone this repository to your desired folder:
 
-  **git clone https://github.com/peteronyam/desktop-portfolio.git**
+  **git clone https://git@github.com:peteronyam/conference.git**
 
 ### Install
 
